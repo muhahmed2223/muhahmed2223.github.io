@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+        <link href="css1.css" rel="stylesheet" type="text/css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            var value;
+            function toggleTheme(value) {
+                var sheets = document
+                    .getElementsByTagName('link');
+      
+                sheets[0].href = value;
+            }
+        </script>
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="index.html"><b>Home</b></a>
+            <a href="index.html#courses"><b>Courses</b></a>
+            <a href="index.html#projects"><b>Projects</b></a>
+            <a href="index.html#about"><b>Copyright</b></a>
+            <a href="mytimetable.html"><b>Time Table</b></a>
+            <a href="coursevideos.html"><b>Course Videos</b></a>
+            <div class="dropdown">
+                <button class="dropbtn"><b>Theme</b></button>
+                <div class="dropdown-content">
+                    <button onclick="toggleTheme('css1.css')">Light</button>
+                    <button onclick="toggleTheme('css2.css')">Dark</button>
+                    <button onclick="toggleTheme('css3.css')">Gradient</button>
+                </div>
+            </div>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <header>
+            <img class="profileImage" src="./images/vrk.png">
+            <br>
+            Muhammad Ahmed
+            <br>
+            <a href="https://github.com/muhahmed2223/WebProgRepository.git">Github</a>
+        </header>
+        <br>
+        <hr>
+        <section id="courses">
+        <p>
+            An undergraduate doing Bachelor in Science in Computer Science from <a href="http://isb.nu.edu.pk/">National University of Computer and Emerging Sciences</a>.
+            <br>
+            Completed my O and A levels from <a href="https://benchmark.edu.pk/">Benchmark School System</a>.
+            
+            <h2>Courses</h2>
+            <div class="tableContainer">
+                <table>
+                    <th>Major Courses</th>
+                    <th>Other Courses</th>
+                    <tr>
+                        <td>Programming Fundamentals</td>
+                        <td>Islamic Studies & Pakistan Studies</td>
+                    </tr>
+                    <tr>
+                        <td>Object Oriented Programming</td>
+                        <td>Calculus I & II</td>
+                    </tr>
+                    <tr>
+                        <td>Data Structures</td>
+                        <td>English Composition and Comprehension</td>
+                    </tr>
+                    <tr>
+                        <td>Computer Organization and Assembly Language</td>
+                        <td>Communication and Presentation Skills</td>
+                    </tr>
+                    <tr>
+                        <td>Design and Analysis of Algorithms</td>
+                        <td>Linear Algebra</td>
+                    </tr>
+                    <tr>
+                        <td>Database Systems</td>
+                        <td>Discrete Structures</td>
+                    </tr>
+                    <tr>
+                        <td>Operating Systems</td>
+                        <td>Probability and Statistics</td>
+                    </tr>
+                </table>
+            </div>
+            
+        </p>
+        </section>
+        <section id="projects">
+            <br>
+            <hr>
+            <br>
+            <br>
+        <div class="projects">
+            <p>
+                <br>
+                <h1>Projects</h1>
+                <span class="imageContainer">
+                    <img class="image" src="./images/Ludo.png">
+                    <span class="imageText">Ludo</span>
+                </span>
+                <span class="imageContainer">
+                    <img class="image" src="./images/flight.jfif">
+                    <span class="imageText">Flight System</span>
+                </span>
+                <span class="imageContainer">
+                    <img class="image" src="./images/router.png">
+                    <span class="imageText">Router Simulation</span>
+                </span>
+                <span class="imageContainer">
+                    <img class="image" src="./images/candy.jpg">
+                    <span class="imageText">Candy Crush </span>
+                </span>
+                <span class="imageContainer">
+                    <img class="image" src="./images/nascon.jpeg">
+                    <span class="imageText">Nascon Website</span>
+                </span>
+                <span class="imageContainer">
+                    <img class="image" src="./images/scheduler.png">
+                    <span class="imageText">Scheduler Simulation</span>
+                </span>
+            </p>
+        </div>
+        </section>
+        <hr>
+        
+        <section id="about">
+            <footer>
+                &copy; 2022 Muhammad Ahmed. All Rights Reserved. <br>
+                <br> All written content Copyright &copy; 2022 Muhammad Ahmed.
+                <br> All website design, layouts, coding and functionality and arrangement thereof are Copyright &copy; 2022 of Muhammad Ahmed, All Rights Reserved.
+                <br> You may not otherwise copy or transmit the contents of this website either electronically or in hard copies, or link to this website.
+                <br> You may not alter the content of this site in any manner.
+                <br> If you are interested in using the contents of or linking to this website, please contact Muhammad Ahmed who may or may not grant permission.
+            </footer>
+        </section>
+
+    </body>
+</html>

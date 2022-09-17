@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+        <link href="css1.css" rel="stylesheet" type="text/css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            function toggleTheme(value) {
+                var sheets = document
+                    .getElementsByTagName('link');
+      
+                sheets[0].href = value;
+            }
+        </script>
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="index.html"><b>Home</b></a>
+            <a href="index.html#courses"><b>Courses</b></a>
+            <a href="index.html#projects"><b>Projects</b></a>
+            <a href="mytimetable.html#about"><b>Copyright</b></a>
+            <a href="mytimetable.html"><b>Time Table</b></a>
+            <a href="coursevideos.html"><b>Course Videos</b></a>
+            <div class="dropdown">
+                <button class="dropbtn"><b>Theme</b></button>
+                <div class="dropdown-content">
+                    <button onclick="toggleTheme('css1.css')">Light</button>
+                    <button onclick="toggleTheme('css2.css')">Dark</button>
+                    <button onclick="toggleTheme('css3.css')">Gradient</button>
+                </div>
+            </div>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <h1>Time Table</h1>
+        <div class="tableContainer">
+            <table>
+                <th></th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <tr>
+                    <th>08:30 AM - 09:50 AM</th>
+                    <td rowspan="2">C.Net Lab</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>10:00 AM - 11:20 AM</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>11:30 AM - 12:50 PM</th>
+                    <td>Automata</td>
+                    <td>C.Net</td>
+                    <td>Automata</td>
+                    <td>C.Net</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>01:00 PM - 02:20 PM</th>
+                    <td>SDA</td>
+                    <td>TBW</td>
+                    <td>SDA</td>
+                    <td>TBW</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>02:30 PM - 03:50 PM</th>
+                    <td>Web Prog</td>
+                    <td></td>
+                    <td>Web Prog</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>04:00 PM - 05:15 PM</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <footer id="about">
+            &copy; 2022 Muhammad Ahmed. All Rights Reserved. <br>
+            <br> All written content Copyright &copy; 2022 Muhammad Ahmed.
+            <br> All website design, layouts, coding and functionality and arrangement thereof are Copyright &copy; 2022 of Muhammad Ahmed, All Rights Reserved.
+            <br> You may not otherwise copy or transmit the contents of this website either electronically or in hard copies, or link to this website.
+            <br> You may not alter the content of this site in any manner.
+            <br> If you are interested in using the contents of or linking to this website, please contact Muhammad Ahmed who may or may not grant permission.
+        </footer>
+    </body>
+</html>
